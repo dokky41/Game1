@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Instance/Scripts/Monster.cs"
 "Assets/Instance/Scripts/MonsterManager.cs"
+"Assets/Translate/Script/Cat.cs"
 "Assets/Use Interface/Script/Car.cs"
 -langversion:9.0
 
