@@ -346,6 +346,11 @@
 "Assets/Instance/Scripts/Monster.cs"
 "Assets/Instance/Scripts/MonsterManager.cs"
 "Assets/Translate/Script/Cat.cs"
+"Assets/UGUI/Scripts/Cube.cs"
+"Assets/UGUI/Scripts/CubeX.cs"
+"Assets/UGUI/Scripts/CubeY.cs"
+"Assets/UGUI/Scripts/CubeZ.cs"
+"Assets/UGUI/Scripts/EventManager.cs"
 "Assets/Use Interface/Script/Car.cs"
 -langversion:9.0
 
