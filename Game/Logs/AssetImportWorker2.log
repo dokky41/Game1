@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.27f1 (ca3ffb99bcc6) revision 13254651'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/Game1/Game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55154
+Successfully changed project path to: F:/Game1/Game
+F:/Game1/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18320] Host "[IP] 192.168.219.111 [Port] 0 [Flags] 2 [Guid] 2477713992 [EditorId] 2477713992 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0SAENE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18320] Host "[IP] 192.168.219.111 [Port] 0 [Flags] 2 [Guid] 2477713992 [EditorId] 2477713992 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D0SAENE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 64.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Game1/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7963 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003609 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (443ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (313ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002198 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game1\Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game1\Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.5 KB). Loaded Objects now: 3541.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 2.444400 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.127900 ms  DeleteObjects: 0.061200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15004.773730 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground10/NewBrush.brush
+  artifactKey: Guid(e705024ca530dd14f9a6b406d497d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground10/NewBrush.brush using Guid(e705024ca530dd14f9a6b406d497d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06772c8bf96ee4941f72ef88c85cd149') in 0.062565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 364.246795 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground10/NewLayer 1.terrainlayer
+  artifactKey: Guid(3ddb2485f124e424c9be8046dcfe10be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground10/NewLayer 1.terrainlayer using Guid(3ddb2485f124e424c9be8046dcfe10be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83723a842b5abccc68a2454d07aaa6e') in 0.028580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.813605 seconds.
+  path: Assets/Stylize Terrain Texture/Materials
+  artifactKey: Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Materials using Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016e19b09b3027c75407df528b03f1a3') in 0.006049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.750462 seconds.
+  path: Assets/Stylize Terrain Texture/Scene
+  artifactKey: Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Scene using Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bccacf874b88a31c4f1a805f2f8f04') in 0.005850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.806743 seconds.
+  path: Assets/Stylize Terrain Texture/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976602cc1d087e8a9df9f571178cab1c') in 0.006270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.716913 seconds.
+  path: Assets/Stylize Terrain Texture/Textures/Vol_19_4_Ambient_Occlusion.png
+  artifactKey: Guid(76400e21d2b92c24ebe4a922cb01a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Textures/Vol_19_4_Ambient_Occlusion.png using Guid(76400e21d2b92c24ebe4a922cb01a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071ca6ae2c007fb50ca93d78eb7189e1') in 0.029700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stylize Terrain Texture/Textures/Vol_19_4_Height.png
+  artifactKey: Guid(8a227c50dab076244a3682b6594cefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Textures/Vol_19_4_Height.png using Guid(8a227c50dab076244a3682b6594cefd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec240654e386ff7c3966352eda8e0f3b') in 0.010992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.887473 seconds.
+  path: Assets/Stylize Terrain Texture/Materials/Stylize Terrain Diffuse.mat
+  artifactKey: Guid(c7d0747bd7053804da8250ca0ea203d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Materials/Stylize Terrain Diffuse.mat using Guid(c7d0747bd7053804da8250ca0ea203d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759d96bc3e913f685c42060f1487afbc') in 0.090898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 386.580742 seconds.
+  path: Assets/Stylize Terrain Texture/Textures/NewLayer.terrainlayer
+  artifactKey: Guid(10eb8259a3803ca45a06b0b826a9157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Terrain Texture/Textures/NewLayer.terrainlayer using Guid(10eb8259a3803ca45a06b0b826a9157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3921a4c250fee57eba50de7037644c') in 0.010847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.962406 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d4738a95ce63dbb46ba675898e3b5bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d4738a95ce63dbb46ba675898e3b5bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15384bc6b4dee3d7beca0aceeaff03cd') in 0.012748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.689978 seconds.
+  path: Assets/ADG_Textures
+  artifactKey: Guid(d729f4e3020ea3946b819bd3771c03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures using Guid(d729f4e3020ea3946b819bd3771c03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756e4a7d525f8c04bc3c46961ac0448') in 0.005887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.807082 seconds.
+  path: Assets/UGUI/Scene/UGUI.unity
+  artifactKey: Guid(e70de65aa7600e145b0de722cb24b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUI/Scene/UGUI.unity using Guid(e70de65aa7600e145b0de722cb24b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107d7fb9169d3055ff24f1beea39d571') in 0.006203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.411385 seconds.
+  path: Assets/UGUI/Scripts/CubeY.cs
+  artifactKey: Guid(a8544b1a58465eb47a520d9ae5d29860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUI/Scripts/CubeY.cs using Guid(a8544b1a58465eb47a520d9ae5d29860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089b4be3b5e8bc7d2edb81ad5715688e') in 0.016151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.309291 seconds.
+  path: Assets/UGUI/Materials/Animals.mat
+  artifactKey: Guid(a33a203314be52b4088fe8fefad34648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UGUI/Materials/Animals.mat using Guid(a33a203314be52b4088fe8fefad34648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100ff26645c916d0b3d1f0664673036a') in 0.031769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.862920 seconds.
+  path: Assets/Animator/Scene/Animator.unity
+  artifactKey: Guid(3a4241b589626a2489a89a8779744613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Scene/Animator.unity using Guid(3a4241b589626a2489a89a8779744613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2093377c7bc22de7271d0f8dd5bfda') in 0.005676 seconds 
