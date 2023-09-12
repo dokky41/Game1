@@ -345,6 +345,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Animation Clip/Script/AnimatorManager.cs"
 "Assets/Animation Clip/Script/Parallax.cs"
+"Assets/Animation Retargeting/Scripts/Character.cs"
+"Assets/Animation Retargeting/Scripts/Skeleton.cs"
 "Assets/Instance/Scripts/Monster.cs"
 "Assets/Instance/Scripts/MonsterManager.cs"
 "Assets/Translate/Script/Cat.cs"

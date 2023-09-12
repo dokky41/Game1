@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Animation Clip/Scene/Animation Clip Example.unity
+- path: Assets/Animation Retargeting/Scenes/Animation Retargeting Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
