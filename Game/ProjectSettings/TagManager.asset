@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Pillar
   - Billiard Ball
+  - Monster
+  - MyUnit
+  - EnemyUnit
   layers:
   - Default
   - TransparentFX
