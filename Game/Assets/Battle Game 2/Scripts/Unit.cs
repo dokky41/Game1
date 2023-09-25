@@ -12,6 +12,7 @@ public enum State
 [RequireComponent(typeof(Animator))]
 public abstract class Unit : MonoBehaviour
 {
+    protected float maxHP;
     protected float health;
     protected float attack;
     protected float speed;
@@ -19,7 +20,12 @@ public abstract class Unit : MonoBehaviour
     protected Collider target;
     protected Animator animator;
 
-    protected State state;
+
+    public State state;
+
+    
+    
+
 
     private void Awake()
     {
@@ -46,6 +52,7 @@ public abstract class Unit : MonoBehaviour
 
     protected virtual void Move()
     {
+        speed = 1.0f;
         animator.SetBool("Attack", false);
         transform.Translate(Vector3.forward * Time.deltaTime);
     }
@@ -54,6 +61,7 @@ public abstract class Unit : MonoBehaviour
     {
         speed = 0.0f;
         animator.SetBool("Attack", true);
+
     }
 
     protected virtual void DIE()
@@ -63,15 +71,8 @@ public abstract class Unit : MonoBehaviour
     }
 
 
-    public void Hit(float damage)
-    {
-        health -= damage;
+    public abstract void Hit(float damage);
 
-        if(health <= 0)
-        {
-            state = State.DIE;
-        }
-    }
 
 
 }

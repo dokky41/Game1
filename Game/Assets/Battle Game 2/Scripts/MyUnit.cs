@@ -2,23 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(HPBar))]
 public class MyUnit : Unit
 {
-    
+    HPBar hpbar;
+
     void Start() 
     {
+
         health = 100;
         attack = 10;
         speed = 1.0f;
 
+        maxHP = health;
+
+        hpbar = GetComponent<HPBar>();
+
 
         animator.runtimeAnimatorController
            = (RuntimeAnimatorController)Resources.Load("My Unit Animator");
+
+       
     }
     public void Damage()
     {
+        hpbar.CurrentHP(health, maxHP);
         target.GetComponent<EnemyUnit>().Hit(attack);
     }
+
+
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -29,6 +42,16 @@ public class MyUnit : Unit
         }
     }
 
+    public override void Hit(float damage)
+    {
+        health -= damage;
 
+        if (health <= 0)
+        {
+            state = State.DIE;
+            target.GetComponent<EnemyUnit>().state = State.RUN;
+        }
+
+    }
 
 }

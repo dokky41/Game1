@@ -348,6 +348,7 @@
 "Assets/Animation Retargeting/Scripts/Character.cs"
 "Assets/Animation Retargeting/Scripts/Skeleton.cs"
 "Assets/Battle Game 2/Scripts/EnemyUnit.cs"
+"Assets/Battle Game 2/Scripts/HPBar.cs"
 "Assets/Battle Game 2/Scripts/MyUnit.cs"
 "Assets/Battle Game 2/Scripts/Unit.cs"
 "Assets/Battle Game/Scripts/MonsterMove.cs"
