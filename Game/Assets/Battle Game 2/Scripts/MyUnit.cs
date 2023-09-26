@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(HPBar))]
+
 public class MyUnit : Unit
 {
-    HPBar hpbar;
 
     void Start() 
     {
@@ -15,19 +14,15 @@ public class MyUnit : Unit
         speed = 1.0f;
 
         maxHP = health;
-
-        hpbar = GetComponent<HPBar>();
-
-
         animator.runtimeAnimatorController
            = (RuntimeAnimatorController)Resources.Load("My Unit Animator");
-
-       
+    
     }
+
     public void Damage()
     {
-        hpbar.CurrentHP(health, maxHP);
         target.GetComponent<EnemyUnit>().Hit(attack);
+
     }
 
 
@@ -45,6 +40,8 @@ public class MyUnit : Unit
     public override void Hit(float damage)
     {
         health -= damage;
+
+        hpBar.CurrentHP(health, maxHP);
 
         if (health <= 0)
         {

@@ -9,6 +9,7 @@ public enum State
     DIE
 }
 
+[RequireComponent(typeof(HPBar))]
 [RequireComponent(typeof(Animator))]
 public abstract class Unit : MonoBehaviour
 {
@@ -17,61 +18,61 @@ public abstract class Unit : MonoBehaviour
     protected float attack;
     protected float speed;
 
+    protected HPBar hpBar;
     protected Collider target;
     protected Animator animator;
 
 
     public State state;
 
-    
-    
-
-
     private void Awake()
     {
+        hpBar = GetComponent<HPBar>();
+
+
         animator = GetComponent<Animator>();
     }
 
-
-    // Update is called once per frame
     void Update()
     {
-        switch(state)
+        switch (state)
         {
-            case State.RUN: Move();
-
+            case State.RUN:
+                Move();
                 break;
-            case State.ATTACK: Attack();
-
+            case State.ATTACK:
+                Attack();
                 break;
-            case State.DIE: DIE();
-
+            case State.DIE:
+                Die();
                 break;
-        }            
+        }
     }
 
     protected virtual void Move()
     {
         speed = 1.0f;
         animator.SetBool("Attack", false);
-        transform.Translate(Vector3.forward * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
     protected virtual void Attack()
     {
         speed = 0.0f;
         animator.SetBool("Attack", true);
-
     }
 
-    protected virtual void DIE()
+    protected virtual void Die()
     {
         animator.Play("Die");
         Destroy(gameObject);
     }
 
-
     public abstract void Hit(float damage);
+
+
+
+
 
 
 

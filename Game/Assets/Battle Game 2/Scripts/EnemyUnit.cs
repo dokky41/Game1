@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyUnit : Unit
 {
+
     void Start()
     {
        
         health = 100;
         attack = 10;
         speed = 1.0f;
+
+        maxHP = health;
 
         animator.runtimeAnimatorController 
             = (RuntimeAnimatorController)Resources.Load("Enemy Unit Animator");
@@ -33,7 +37,9 @@ public class EnemyUnit : Unit
     {
         health -= damage;
 
-        if(health <= 0)
+        hpBar.CurrentHP(health, maxHP);
+
+        if (health <= 0)
         {
             state = State.DIE;
             target.GetComponent<MyUnit>().state = State.RUN;

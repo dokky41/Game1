@@ -10,11 +10,8 @@ public class HPBar : MonoBehaviour
 
     public void CurrentHP(float hp, float maxHP)
     {
-        // Unit 체력 / Unit Max 체력
+       
         hpBar.value = hp / maxHP;
-        Debug.Log("dd"+hpBar.value);
     }
-
-
 
 }
