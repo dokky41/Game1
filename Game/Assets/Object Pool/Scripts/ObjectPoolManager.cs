@@ -54,12 +54,11 @@ public class ObjectPoolManager : MonoBehaviour
     }
 
 
-    public GameObject GetQueue()
+    public GameObject GetQueue(Vector3 createPosition)
     {
         GameObject bullet = queue.Dequeue();
-
         bullet.SetActive(true);
-
+        bullet.transform.position = createPosition;
         return bullet;
     }
 
