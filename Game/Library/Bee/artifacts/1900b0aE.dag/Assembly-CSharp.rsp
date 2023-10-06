@@ -376,6 +376,8 @@
 "Assets/Physics/Scripts/PhysicsManager.cs"
 "Assets/Rotation/Script/Observe.cs"
 "Assets/Rotation/Script/Revolution.cs"
+"Assets/Sound/Scripts/AudioManager.cs"
+"Assets/Sound/Scripts/Drone.cs"
 "Assets/Translate/Script/Cat.cs"
 "Assets/UGUI/Scripts/Cube.cs"
 "Assets/UGUI/Scripts/CubeX.cs"
